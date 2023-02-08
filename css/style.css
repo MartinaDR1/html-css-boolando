@@ -63,6 +63,7 @@ a{
     padding: 5px 0;
     position: fixed;
     width: 100%;
+    z-index: 99;
 }
 
 .top-header{
@@ -125,4 +126,60 @@ a{
 
 .line-price{
     text-decoration: line-through;
+}
+
+/*hover*/
+
+.card-1:hover .change{
+    visibility: collapse;
+}
+
+.card-1:hover{
+    background: url(/img/1b.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.card-2:hover .change{
+    visibility: collapse;
+}
+
+.card-2:hover{
+    background: url(/img/2b.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.card-3:hover .change{
+    visibility: collapse;
+}
+
+.card-3:hover{
+    background: url(/img/4b.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.card-5:hover .change{
+    visibility: collapse;
+}
+
+.card-5:hover{
+    background: url(/img/5b.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.card-6:hover .change{
+    visibility: collapse;
+}
+
+.card-6:hover{
+    background: url(/img/6b.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.card:hover .badge-like{
+    color: red;
 }
