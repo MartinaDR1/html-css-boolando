@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    "Helvetica Now", Helvetica, Arial, sans-serif;
+}
+
 :root{
     --badge-sales: #ff0608;
     --header: #ff6900;
@@ -35,15 +39,34 @@ a{
     text-decoration: none;
 }
 
+.badge{
+    color: white;
+    padding: 3px 5px;
+    font-size: 12px;
+}
+
+.badge-like{
+    position: absolute;
+    right: 0;
+    top: 20px;
+
+    padding: 3px 8px;
+    background-color: white;
+    color: black;
+    font-size: 30px;
+}
+
 /*Header*/
 
 #app-header{
     background-color: var(--header);
     padding: 5px 0;
+    position: fixed;
+    width: 100%;
 }
 
 .top-header{
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .personal, a,i{
@@ -55,4 +78,51 @@ a{
 
 .logo-boolean{
     height: 20px;
+}
+
+/*Main*/
+
+#app-main{
+    padding: 4rem 0;
+}
+
+.row{
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 33%;
+    margin-bottom: 10px;
+
+    position: relative;
+}
+
+.info-badge{
+    position: absolute;
+    top: 400px;
+    left: 0;
+}
+
+.sales{
+    background-color: var(--badge-sales);
+}
+
+.green{
+    background-color: var(--badge);
+}
+
+.text-card{
+    margin-bottom: 2rem;
+}
+.text-card span{
+    font-size: 12px;
+}
+
+.price{
+    color: red;
+}
+
+.line-price{
+    text-decoration: line-through;
 }
