@@ -183,3 +183,23 @@ a{
 .card:hover .badge-like{
     color: red;
 }
+
+/*Footer*/
+
+#app-footer{
+    background-color: var(--dark);
+    padding: 1rem 0;
+}
+
+.box-footer{
+    justify-content: space-between;
+}
+
+.box-footer h5{
+    color: var(--light);
+    line-height: 1rem;
+}
+
+.social-bar, a{
+    font-size: 10px;
+}
